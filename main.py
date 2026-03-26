@@ -18,8 +18,8 @@ def run():
         
         match option:
             case "1":
-                # Agregar tarea 1 - min_max(data) - Cristhian
-                print("Tarea 1")
+                min_max_result = min_max(data)
+                print("Resultado de Normalización Min-Max:", min_max_result)
             case "2":
                 # Agregar tarea 2 - z_score(data) - Michael
                 print("Tarea 2")
