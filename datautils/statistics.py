@@ -8,5 +8,6 @@ def median(data):
     print("Función median aún no implementada.")
     
 def std_dev(data):
-    # Añadir implementación de la desviación estándar
-    print("Función std_dev aún no implementada.")
+    mean = sum(data)/len(data)
+    variance = sum((x-mean)**2 for x in data)/len(data)
+    return variance **0.5

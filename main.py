@@ -28,7 +28,7 @@ def run():
                 print("Tarea 3")
             case "4":
                 # Agregar tarea 4 - std_dev(data) - Danna
-                print("Tarea 4")
+                print("Desviación Estándar:", std_dev(data))
             case "5":
                 print("Saliendo del programa...")
                 break
