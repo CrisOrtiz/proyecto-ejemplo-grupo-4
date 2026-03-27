@@ -25,7 +25,8 @@ def run():
                 print("Tarea 2")
             case "3":
                 # Agregar tarea 3 - median(data) - Billy
-                print("Tarea 3")
+                print("(*) La Mediana de los datos es el siguiente")
+                print(median(data))
             case "4":
                 # Agregar tarea 4 - std_dev(data) - Danna
                 print("Tarea 4")
