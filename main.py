@@ -22,7 +22,8 @@ def run():
                 print("Tarea 1")
             case "2":
                 # Agregar tarea 2 - z_score(data) - Michael
-                print("Tarea 2")
+                z_score_result = z_score(data)
+                print("Resultado de z_score:", z_score_result)
             case "3":
                 # Agregar tarea 3 - median(data) - Billy
                 print("(*) La Mediana de los datos es el siguiente")
